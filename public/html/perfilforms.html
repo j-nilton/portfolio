@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Perfil de Usuário</title>
+  <link rel="stylesheet" href="/public/css/style.css">
+</head>
+
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Início</a></li>
+        <li><a href="index.html#sobre">Sobre</a></li>
+        <li><a href="contato.html">Contato</a></li>
+        <li><a href="perfilUsuario.html">Perfil</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Perfil de Usuário</h1>
+    <section class="perfil-grid">
+      <aside>
+        <img src="/img/Imagem do WhatsApp de 2025-05-20 à(s) 15.34.52_62f6fe5c.jpg" alt="Foto de Perfil">
+        <h2>José Gilson</h2>
+        <p>capir.2024116TADS00@aluno.ifpi.edu.br</p>
+        <p>Desenvolvedor Front-End</p>
+        <p>Batalha, Brasil</p>
+        <ul>
+          <li><a href="#">Website</a></li>
+          <li><a href="https://github.com/j-gilson">Github</a></li>
+          <li><a href="#">Twitter</a></li>
+          <li><a href="https://www.instagram.com/jg_reboucas/">Instagram</a></li>
+        </ul>
+      </aside>
+
+      <section class="formulario">
+        <form>
+          <fieldset>
+            <legend>Dados Pessoais</legend>
+            <label>Nome <input type="text" value="José Gilson Araújo Rebouças"> </label>
+            <label>Email <input type="email" value="josegilsonaraujoreboucas@gmail.com"></label>
+            <label>Telefone <input type="tel" value="86 999216078"></label>
+            <label>Data de Nascimento <input type="date" value="19/03/2007"></label>
+            <label>Sexo
+              <select>
+                <option>Masculino</option>
+                <option>Feminino</option>
+                <option>Outro</option>
+              </select>
+            </label>
+            <label>Biografia <textarea rows="4">Desenvolvedor Front-End de Batalha, Brasil.</textarea></label>
+          </fieldset>
+
+          <fieldset>
+            <legend>Endereço</legend>
+            <label>Rua <input type="text" value="Sem rua "></label>
+            <label>Cidade <input type="text" value="Batalha"></label>
+            <label>Estado <input type="text" value="Piauí"></label>
+          </fieldset>
+
+          <fieldset>
+            <legend>Pagamento</legend>
+            <label>Nome do Titular <input type="text" value="José Gilson Araújo Rebouças"></label>
+            <label>Número do Cartão <input type="text" value="0101020303"></label>
+            <label>Data de Expiração <input type="month" value="2025-12"></label>
+            <label>CVV <input type="text" value="123"></label>
+            <label>
+              <input type="radio" name="pagamento" checked> Crédito
+              <input type="radio" name="pagamento"> Débito
+            </label>
+          </fieldset>
+
+          <fieldset>
+            <legend>Habilidades</legend>
+            <label>Web Design <input type="range" min="0" max="100"></label>
+            <label>Linux <input type="range" min="0" max="100"></label>
+            <label>Inglês <input type="range" min="0" max="100"></label>
+            <label>Mobile <input type="range" min="0" max="100"></label>
+            <label>Backend API <input type="range" min="0" max="100"></label>
+          </fieldset>
+
+          <fieldset>
+            <legend>Interesses</legend>
+            <label><input type="checkbox" checked> Banco de dados</label>
+            <label><input type="checkbox"> Metodologias ágeis</label>
+            <label><input type="checkbox" checked> Engenharia de software</label>
+            <label><input type="checkbox"> Segurança da informação</label>
+            <label><input type="checkbox"> Cloud Computing</label>
+            <label><input type="checkbox"> Business Intelligence</label>
+            <label><input type="checkbox"checked> Inteligência Artificial</label>
+          </fieldset>
+
+          <button type="submit">Salvar</button>
+        </form>
+      </section>
+    </section>
+  </main>
+
+  <footer>
+    <small>Author: Hege Refsnes | hege@example.com</small>
+  </footer>
+</body>
+
+</html>
