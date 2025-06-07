@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 
 <head>
     <meta charset="UTF-8">
@@ -10,90 +10,82 @@
 
 <body>
     <header>
-        <h1>Maykol Sampaio</h1>
         <nav>
             <ul>
-                <li><a href="#inicio">Início</a></li>
+                <li><a href="/public/html/index.html">Início</a></li>
                 <li><a href="#sobre">Sobre</a></li>
-                <li><a href="#contato">Contato</a></li>
-                <li><a href="#perfil">Perfil</a></li>
+                <li><a href="/public/html/contato.html">Contato</a></li>
+                <li><a href="/public/html/perfilUsuario.html">Perfil</a></li>
             </ul>
         </nav>
-        <form>
-            <input type="search" placeholder="Pesquisar...">
-            <button type="submit">Pesquisar</button>
-        </form>
     </header>
 
     <main>
         <section id="inicio">
-            <aside>
-                <figure>
-                    <img src="avatar.jpg" alt="Foto de perfil de Maykol Sampaio">
-                    <figcaption>Professor e Desenvolvedor Web Full Stack</figcaption>
-                </figure>
-                <nav>
-                    <ul>
-                        <li><a href="#">GitHub</a></li>
-                        <li><a href="#">LinkedIn</a></li>
-                        <li><a href="#">Twitter</a></li>
-                        <li><a href="#">Youtube</a></li>
-                        <li><a href="#">Instagram</a></li>
-                    </ul>
-                </nav>
-            </aside>
+            <h1>Seu Nome</h1>
+            <p>Desenvolvedor Web</p>
+
+            <div class="social-links">
+                <ul>
+                    <li><a href="#">GitHub</a></li>
+                    <li><a href="#">LinkedIn</a></li>
+                    <li><a href="#">Twitter</a></li>
+                    <li><a href="#">Youtube</a></li>
+                    <li><a href="#">Instagram</a></li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="sobre">
+            <h2>Sobre Mim</h2>
+            <p>Sou um entusiasta da tecnologia com mais de 10 anos de experiência em Tecnologia da Informação e 5 anos
+                atuando como professor de ensino. Minha paixão é combinar conhecimento técnico com ensino para capacitar
+                futuros profissionais e resolver desafios tecnológicos.</p>
+        </section>
+
+        <section id="habilidades">
+            <h2>Habilidades</h2>
+            <ul>
+                <li>Desenvolvimento Web (HTML, CSS, JavaScript)</li>
+                <li>Redes e infraestrutura de TI</li>
+                <li>Ensino de lógica de programação e algoritmos</li>
+                <li>Banco de Dados (SQL, NoSQL)</li>
+                <li>Gerenciamento de Projetos</li>
+            </ul>
+        </section>
+
+        <section id="experiencia">
+            <h2>Experiência</h2>
 
             <article>
-                <section id="sobre">
-                    <h2>Sobre Mim</h2>
-                    <p>Sou um entusiasta da tecnologia com mais de 10 anos de experiência em Tecnologia da Informação e
-                        5 anos atuando como professor de ensino. Minha paixão é combinar conhecimento técnico com ensino
-                        para capacitar futuras gerações e resolver desafios corporativos.</p>
-                </section>
-
-                <section>
-                    <h2>Habilidades</h2>
-                    <ul>
-                        <li>Desenvolvimento Web (HTML, CSS, JavaScript)</li>
-                        <li>Redes e Infraestrutura de TI</li>
-                        <li>Ensino de lógica de programação e algoritmos</li>
-                        <li>Banco de Dados (SQL, NoSQL)</li>
-                        <li>Gerenciamento de Projetos</li>
-                    </ul>
-                </section>
-
-                <section>
-                    <h2>Experiência</h2>
-                    <h3>Professor de Tecnologia</h3>
-                    <p><strong>Escola Técnica XYZ</strong> – 2018 até o presente</p>
-                    <p>Ensino de disciplinas como desenvolvimento de sistemas, redes de computadores e banco de dados
-                        para turmas técnicas.</p>
-
-                    <h3>Analista de TI</h3>
-                    <p><strong>Empresa ABC</strong> – 2013 a 2018</p>
-                    <p>Responsável por manutenção de sistemas, suporte técnico e implementação de soluções tecnológicas
-                        corporativas.</p>
-                </section>
-
-                <section id="perfil">
-                    <h2>Perfil</h2>
-                    <p>Formulário da Atividade Forms.pdf pode ser inserido aqui.</p>
-                </section>
-
-                <section id="contato">
-                    <h2>Contato</h2>
-                    <p>Email: <a href="mailto:maykolsampaio@ifpi.edu.br">maykolsampaio@ifpi.edu.br</a></p>
-                    <p>LinkedIn: <a href="#">linkedin.com/in/maykol-sampaio</a></p>
-                    <p>GitHub: <a href="#">maykolsampaio</a></p>
-                    <p>Youtube: <a href="#">Canal do YouTube</a></p>
-                    <p>Instagram: <a href="#">@professormaykol</a></p>
-                </section>
+                <h3>Professor de Tecnologia</h3>
+                <p><strong>Escola Técnica XYZ - 2018 até o presente</strong></p>
+                <p>Ensino de disciplinas como desenvolvimento de sistemas, redes de computadores e banco de dados para
+                    turmas técnicas.</p>
             </article>
+
+            <article>
+                <h3>Analista de TI</h3>
+                <p><strong>Empresa ABC - 2013 a 2018</strong></p>
+                <p>Responsável por manutenção de sistemas, suporte técnico e implementação de soluções tecnológicas
+                    corporativas.</p>
+            </article>
+        </section>
+
+        <section id="contato">
+            <h2>Contato</h2>
+            <address>
+                Email: <a href="mailto:seuemail@exemplo.com">seuemail@exemplo.com</a><br>
+                LinkedIn: <a href="#">linkedin.com/in/seu-perfil</a><br>
+                GitHub: <a href="#">github.com/seuusuario</a><br>
+                Youtube: <a href="#">Canal do Youtube</a><br>
+                Instagram: <a href="#">@seuinstagram</a>
+            </address>
         </section>
     </main>
 
     <footer>
-        <p>&copy; 2023 Meu Site. Todos os direitos reservados.</p>
+        <p>© <time datetime="2023">2023</time> Meu Portfólio. Todos os direitos reservados.</p>
     </footer>
 </body>
 
