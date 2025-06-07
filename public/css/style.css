@@ -1,0 +1,189 @@
+/* style.css */
+
+:root {
+    --bg-dark: #2c2c2c;
+    --bg-light: #ffffff;
+    --text-light: #f0f0f0;
+    --primary: #007bff;
+    --linkedin: #0e76a8;
+    --twitter: #1da1f2;
+    --youtube: #ff0000;
+    --instagram: #c32aa3;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: var(--bg-light);
+    color: #000;
+    line-height: 1.6;
+}
+
+header {
+    background-color: var(--bg-dark);
+    color: var(--text-light);
+    padding: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    flex: 1 1 100%;
+    text-align: center;
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 1rem 0;
+}
+
+header nav a {
+    color: var(--text-light);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header form {
+    display: flex;
+    justify-content: center;
+    padding: 0.5rem 0;
+}
+
+header input[type="search"] {
+    padding: 0.5rem;
+    border: none;
+}
+
+header button {
+    padding: 0.5rem;
+    background-color: green;
+    color: white;
+    border: none;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 250px 1fr;
+    gap: 2rem;
+    padding: 2rem;
+}
+
+aside {
+    background-color: var(--bg-dark);
+    color: var(--text-light);
+    padding: 1rem;
+    text-align: center;
+}
+
+figure {
+    margin-bottom: 1rem;
+}
+
+figure img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+aside nav ul {
+    list-style-type: none;
+}
+
+aside nav li {
+    margin: 0.5rem 0;
+}
+
+aside nav a {
+    display: inline-block;
+    width: 100%;
+    padding: 0.5rem;
+    text-decoration: none;
+    color: var(--text-light);
+    font-weight: bold;
+}
+
+aside nav a:nth-child(1) {
+    background: #333;
+}
+
+aside nav a:nth-child(2) {
+    background: var(--linkedin);
+}
+
+aside nav a:nth-child(3) {
+    background: var(--twitter);
+}
+
+aside nav a:nth-child(4) {
+    background: var(--youtube);
+}
+
+aside nav a:nth-child(5) {
+    background: var(--instagram);
+}
+
+article section {
+    margin-bottom: 2rem;
+}
+
+article h2 {
+    margin-bottom: 0.5rem;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 0.25rem;
+}
+
+ul li {
+    list-style: disc inside;
+    margin-left: 1rem;
+    padding: 0.25rem 0;
+}
+
+footer {
+    background-color: var(--bg-dark);
+    color: var(--text-light);
+    text-align: center;
+    padding: 1rem;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    main {
+        grid-template-columns: 1fr;
+    }
+
+    header nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    header form {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    aside nav a {
+        display: block;
+        margin: 0.25rem 0;
+    }
+
+    header h1 {
+        font-size: 1.5rem;
+    }
+
+    figure img {
+        width: 100px;
+        height: 100px;
+    }
+}
